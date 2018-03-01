@@ -359,6 +359,20 @@ tr.heading {
 
 img {
     border: none;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+img#normal_img {
+    border: none;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+img:hover {
+ 
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 table.imgtable, table.imgtable td {
