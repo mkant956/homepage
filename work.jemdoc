@@ -9,11 +9,18 @@ B.Tech, CSE\nIndian Institute of Technology, Kanpur\n
 == Previous Work
 ~~~
 {PassMan}
-A Password Manager for manging your various passwords of various usernames on various Websites.
+A Password Manager for managing various passwords for your different accounts on different Websites.\n\n
+Github Link : [https://github.com/mkant956/PassMan https:\/\/github.com\/mkant956\/PassMan]
 ~~~
 
 ~~~
 {VoltBot}
+A Mobile Robot Fabricated for search and exploration purpose under RHOCOP project of Prof. Indranil Saha.
+{}{img_left}{src/dp2.jpg}{alt text}{131}{160}
+~~~
+
+~~~
+{Multiirobot Coverage Planning Framework}
 A Mobile Robot Fabricated for search and exploration purpose under RHOCOP project of Prof. Indranil Saha.
 ~~~
 
