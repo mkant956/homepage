@@ -36,6 +36,7 @@ body {
 	padding-left: 1.0em;
 	padding-right: 1.0em;
     border: none;
+    width: 100%;
     background: white;
     text-align: left;
     vertical-align: top;
@@ -239,7 +240,7 @@ div.codeblock, div.infoblock {
 
 div.blocktitle {
 	font-weight: bold;
-	color: #cd7b62;
+	color: #cd7b62 !important;
 	margin-top: 1.2em;
 	margin-bottom: 0.1em;
 }
@@ -378,4 +379,10 @@ img:hover {
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
+}
+
+
+table.imgtabler, table.imgtabler td {
+    border: none;
+    text-align: center;
 }

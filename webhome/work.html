@@ -13,9 +13,10 @@
 <td id="layout-menu">
 <div class="menu-category">Menu</div>
 <div class="menu-item"><a href="index.html" class="current">Home</a></div>
-<div class="menu-item"><a href="src/cv.pdf">Resume</a></div>
+<div class="menu-item"><a href="src/cv_latex.pdf">Resume</a></div>
 <div class="menu-item"><a href="contact.html">Contact</a></div>
 <div class="menu-item"><a href="work.html">Previous&nbsp;Work</a></div>
+<div class="menu-item"><a href="intern.html">Internship</a></div>
 <div class="menu-category">Links</div>
 <div class="menu-item"><a href="https://github.com/mkant956">Github</a></div>
 </td>
@@ -26,27 +27,91 @@
 </div>
 <table class="imgtable"><tr><td>
 <a href="http://home.iitk.ac.in/~mkant/"><img src="src/dp2.jpg" alt="alt text" width="131px" height="160px" /></a>&nbsp;</td>
-<td align="left"><p>B.Tech, CSE<br />Indian Institute of Technology, Kanpur<br /></p>
+<td align="left"><p>Final Year Undergraduate, CSE<br />Indian Institute of Technology, Kanpur<br /></p>
 </td></tr></table>
 <h2>Previous Work</h2>
 <div class="infoblock">
-<a href="https://github.com/mkant956/PassMan">
 <div class="blocktitle">PassMan</div>
-</a>
 <div class="blockcontent">
-<p>A Password Manager for manging your various passwords of various usernames on various Websites.</p>
+<p>A <a href="https://github.com/mkant956/PassMan">Password Manager</a> for managing various passwords for your different accounts on different Websites. Built on python and stored in MySql.</p>
 </div></div>
 <div class="infoblock">
 <div class="blocktitle">VoltBot</div>
 <div class="blockcontent">
-<p>A Mobile Robot Fabricated for search and exploration purpose under receding horizon multi-robot coverage planning project of <a href="https://cse.iitk.ac.in/users/isaha/">Prof. Indranil Saha</a>.</p>
-
+<ul>
+<li><p>Developed cost efficient robots with <b>Raspberry pi</b> as their Processing unit to map an unknown area </p>
+</li>
+<li><p>Established wireless communication between robots &amp; server via WiFi using <i>ROS Communication Protocol</i></p>
+</li>
+<li><p>Designed motion primitives for the robot and build ROS Packages for assigning and executing the motion commands</p>
+</li>
+</ul>
 </div></div>
-
-<div id="wordle">
-<img src="src/wordle2.png" width="640px" height="420px" align="center" />
-</div>
-
+<table class="imgtable"><tr><td>
+<img src="src/robot.jpg" alt="alt voltbot Image here" width="320px" height="240px" />&nbsp;</td>
+<td align="left"><p><tt>Robot designed for mapping indoor environment</tt></p>
+</td></tr></table>
+<div class="infoblock">
+<div class="blocktitle">Multiirobot Coverage Planning Framework</div>
+<div class="blockcontent">
+<ul>
+<li><p>Implemented <a href="https://www.cse.iitk.ac.in/users/isaha/Publications/Conferences/ICCPS18.pdf/"><b>Receding Horizon Algorithm</b></a> on custom built <b>swarm robots</b> for mapping partially known
+environment <tt><a href="http://home.iitk.ac.in/~mkant/cs395a/report.pdf">[link]</a></tt></p>
+</li>
+<li><p>Used <b>Vicon</b> as the localisation method &amp; built <b>ROS</b> packages for data simplification, frame reduction and map
+calibration</p>
+</li>
+<li><p>Implemented <a href="https://www.oblu.io/">Oblu</a> as secondary localisation method and upgraded robot structure for mapping outdoor environment <tt><a href="http://home.iitk.ac.in/~mkant/cs396a/report.pdf">[link]</a></tt></p>
+</li>
+</ul>
+</div></div>
+<table class="imgtable"><tr><td>
+<img src="src/new_bot.png" alt="alt voltbot Image here" width="320px" height="240px" />&nbsp;</td>
+<td align="left"><p><tt>Robot designed for mapping outdoor environment</tt></p>
+</td></tr></table>
+<div class="infoblock">
+<div class="blocktitle">Compiler for COOL</div>
+<div class="blockcontent">
+<ul>
+<li><p>Developed a full fledged programming language <b><a href="https://github.com/abhikr360/CoolCompilers/tree/master/coolmate">Coolmate</a></b> - derived from java based programming language <a href="https://en.wikipedia.org/wiki/Cool_(programming_language)">COOL</a></p>
+</li>
+<li><p>Implemented <b>OOP</b> feature, <b>Inheritance</b>, <b>file handling</b> and other java based programming constructs</p>
+</li>
+<li><p>Developed a sublime-text editor <b><a href="https://github.com/abhikr360/CoolCompilers/tree/master/sublime_plugin">plugin</a></b> for the language having correct <b>color coding</b> &amp; <b>auto-complete</b> for
+language constructs</p>
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blocktitle">Nano Machine Learning</div>
+<div class="blockcontent">
+<ul>
+<li><p>Implemented computationally demanding machine learning algorithms such as <b>kNN</b> on memory deficient systems
+with less than 2KB of RAM using <b><a href="https://github.com/abhikr360/Nano-Machine-Learning">Online ProtoNN</a></b> and self designed <b>coresets</b> based clustering algorithm <b><a href="https://github.com/abhikr360/Nano-Machine-Learning">ballgorithm</a></b></p>
+</li>
+</ul>
+<ul>
+<li><p>Modified current state-of-the-art method ProtoNN to train online, hence eliminating need for server generated
+models</p>
+</li>
+</ul>
+</div></div>
+<div class="infoblock">
+<div class="blocktitle">Medipad : ACA IIT Kanpur</div>
+<div class="blockcontent">
+<ul>
+<li><p>Developed a web app on NodeJs framework as a digital alternative for the health booklet</p>
+</li>
+<li><p>Had different view portals for patient, doctor and chemist all connected through MongoDB Database</p>
+</li>
+</ul>
+</div></div>
+<table class="imgtabler"><tr><td>
+<img src="src/wordle2.png" alt="640" width="480px" />&nbsp;</td>
+<td align="right"></td></tr></table>
+<p><tt>source - <a href="http://www.wordle.net/">wordle</a></tt></p>
+<div class="infoblock">
+<div class="blockcontent">
 <h2></h2>
 <p>Page Generated by <a href="http://jemdoc.jaboc.net/index.html">jemdoc</a></p>
 </td>
