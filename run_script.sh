@@ -4,3 +4,4 @@
 ./script_jemdoc contact.jemdoc
 ./script_jemdoc work.jemdoc
 ./script_jemdoc intern.jemdoc
+mv index.html ../index.html
